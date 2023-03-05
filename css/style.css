@@ -1,0 +1,119 @@
+ * {
+ margin: 0;
+  padding: 0;
+}
+header h1 {
+background: url ("bg.png");
+background-color: #28abe3;
+text-align: center;
+padding: 10px;
+font-size: 4em;
+color: #fff;
+text-shadow: 1px 1px 1px grey;
+}
+nav ul {
+background-color: #2980b9;
+}
+
+nav ul li,
+nav ul li a {
+ display: inline-block;
+ color: #FFF;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+text-decoration: none;
+padding: 10px;
+}
+nav ul li a:hover,
+nav ul li a:active {
+background-color: #409ad5;
+transition: all 0.3s;
+}
+
+section {
+border: 3px solid grey;
+width: 70%;
+font: italic bold;
+background-color: #efefef ;
+margin: 5px;
+float: left;
+
+}
+
+article {
+width: 100%;
+f
+}
+
+article h2 {
+text-align: center;
+font-size: 2em;
+}
+
+article p {
+text-align: center;
+
+font-size: 1.5em;
+}
+
+article .video {
+width: 100%;
+margin: 50px;
+float: left;
+border-radius: 100px;
+}
+
+aside {
+background-color: #efefef;
+float: right;
+margin: 10px;
+width: 25%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+height: 560px;
+
+}
+
+aside h3 {
+text-align: center;
+background-color: #afafaf;
+color: #fff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+aside ul 
+{
+
+}
+
+aside ul li,
+aside ul li a {
+text-indent: 10px;
+display: block;
+
+}
+aside ul li a:link,
+aside ul li a:visited {
+text-decoration: none;
+color: #000;
+font-size:1.1em;
+padding: 12px;
+transition: all 0.5s;
+}
+
+aside ul li a:hover,
+aside ul li a:active {
+text-indent: 20px;
+background-color: #cfcfcf;
+}
+
+footer {
+background-color: #28abe3;
+clear: both;
+text-align: center;
+color: #fff;
+padding: 10px;
+}

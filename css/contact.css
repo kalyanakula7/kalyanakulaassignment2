@@ -1,0 +1,32 @@
+ * {
+ margin: 0;
+  padding: 0;
+}
+header h1 {
+background: url ("bg.png");
+background-color: #28abe3;
+text-align: center;
+padding: 10px;
+font-size: 4em;
+color: #fff;
+text-shadow: 1px 1px 1px grey;
+}
+section {
+width: 100%;
+padding: 10px;
+
+
+article h2 {
+margin: 10px;
+}
+article label {
+padding: 10px;
+}
+
+footer {
+background-color: #28abe3;
+clear: both;
+text-align: center;
+color: #fff;
+padding: 10px;
+}

@@ -1,0 +1,105 @@
+ * {
+ margin: 0;
+  padding: 0;
+}
+header h1 {
+background-image: url ("bg.png");
+background-color: #28abe3;
+text-align: center;
+padding: 10px;
+font-size: 4em;
+color: #fff;
+text-shadow: 1px 1px 1px grey;
+}
+
+section {
+border: 3px solid grey;
+width: 70%;
+font: italic bold;
+background-color: #efefef ;
+margin: 5px;
+float: left;
+
+}
+
+article {
+width: 100%;
+
+}
+
+article .img {
+width: 100px;
+top-margin: 0px;
+width: 150px;
+height: 150px;
+float: left;
+border-radius: 100px;
+border: 2px grey;
+}
+article h2 {
+text-align: center;
+font-size: 2em;
+}
+
+article p {
+text-align: center;
+
+font-size: 1.5em;
+}
+ul li p {
+display: block;
+padding: 10px;
+}
+
+aside {
+background-color: #efefef;
+float: right;
+margin: 10px;
+width: 25%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+height: 400px;
+
+}
+
+aside h3 {
+text-align: center;
+background-color: #afafaf;
+color: #fff;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+aside ul 
+{
+
+}
+
+aside ul li,
+aside ul li a {
+text-indent: 10px;
+display: block;
+
+}
+aside ul li a:link,
+aside ul li a:visited {
+text-decoration: none;
+color: #000;
+font-size:1.1em;
+padding: 12px;
+transition: all 0.5s;
+}
+
+aside ul li a:hover,
+aside ul li a:active {
+text-indent: 20px;
+background-color: #cfcfcf;
+}
+
+footer {
+background-color: #28abe3;
+clear: both;
+text-align: center;
+color: #fff;
+padding: 10px;
+}
